@@ -5,10 +5,9 @@
   "private": true,
   "scripts": {
     "postinstall": "patch-package",
-    "dev:run": "run-s dev:node:*",
+    "dev": "run-s dev:node:*",
     "dev:node:cli": "node dist/cli.js --env local",
-    "dev:node:start": "next",
-    "dev": "next dev",
+    "dev:node:start": "next dev",
     "start": "next start",
     "build": "next build",
     "export": "next export",
